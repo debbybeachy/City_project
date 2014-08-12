@@ -1,46 +1,60 @@
-/*univeral sytles*/
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
-  display: block;
+/* universal Styles*/
+footer, section {
+   display: block;
 }
 
- button, input, textarea, select, section, footer{
-   margin:0px;
+button, input, textarea, select, section, footer, ul, li, body, html{
+   margin: 0px;
 }
 
-ul li{
+ul, li{
    list-style: none;
 }
 
-h1, p{
- font-family:Arial, Helvetica, sans-serif ;
- color: rgb(217, 211, 179);
- font-size 1em;
+h1, h5, h6, p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(217, 211, 179);
 }
 
-
+.button:hover, .xBox:hover, .clearList:hover{  /* Button hovers*/
+   opacity: 0.8;
+}
+/*
 html{
- background:url('../images/Banner.jpg') no-repeat;
- position: absolute top;
- 
+   background: url("../images/cityBanner.jpg") no-repeat center top;
+   
+}*/
+
+img{
+  height: 250px;
+   min-width: 100%;
 }
 
 section{
-   margin: 375px 0px 0px 400px;
-   width: 695px;
-   padding: 5px 0px 10px 0px;
+   width: 940px;
+   margin: 90px auto 0px;
+}
+
+.listWrapper{                           /* I added the .listWrapper div because it was easier to center my elements*/
+   width: 469px;
+   margin: 0px auto 0px;
 }
 
 h1{
-    text-align: center;
-}
-
-p{ 
-   line-height: 2px;
-   margin-left: 105px;
+   font-size: 18px;
+   text-align: center;
 }
 
 .input{
-   margin-left: 105px;
+   margin-left: 53px;
+}
+
+p{
+   margin-left: 53px;
+}
+
+span{
+   font-weight: bolder;
 }
 
 .type{
@@ -61,15 +75,12 @@ p{
    color:  white;
 }
 
-.button:hover{
-   opacity: 0.8;
-}
-
 .cityList{
-   margin-left: 60px;
-   width: 300px;
+   width: 240px;
    height: 120px;
+   margin-left: 10px;
    overflow: auto;
+   padding-bottom: 10px;
 }
 
 li{
@@ -85,12 +96,8 @@ li{
    color:  white;
 }
 
-.xBox:hover{
-   opacity: 0.8;
-}
-
 .clearList{
-   margin-left: 100px;
+   margin-left: 50px;
    padding: 6px;
    border: 1px solid rgb(205, 210, 215);
    border-radius: 3px;
@@ -98,28 +105,29 @@ li{
    color:  white;
 }
 
-.clearList:hover{
-   opacity: 0.8;
+.clear{
+   width: 130px;
+   position: relative;
+   top: -129px;
+   left:  225px;
 }
 
 footer{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
    background-color: rgb(217, 211, 179);
-   height: 30px;
+   height: 40px;
+   width: 100%;
+   position: fixed;
+   bottom: 0px;
 }
 
-h5{
+h6{
    color: rgb(144, 148, 151);
    float: right;
-   margin: 6px 300px 5px 0px;
    font-style: italic;
+   margin: 12px 35px 5px 0px;
 }
 
-p{
-   color: red;
-}
+
 
 
 
