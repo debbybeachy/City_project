@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="stylesheet" type="text/css" href="css/main-styles.css" />
+      <meta charset="utf-8">
+      <meta name="author" content="Debby">
+      <title>City List</title>    
+      <!--[if IE]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]--> 
+</head>
+<body>
+   <section>
+      <h1>What's your favorite city? Add it to the list.</h1>
+      <form class="input">
+         <input class="type" type="text" name="item" placeholder="Chicago">
+         <input class="button" type="submit" value="Add City" />    
+      </form>
+      
+      <p>Click once to cross out an item.</p>
+      <p> Click the X to delete an item.</p>
+      
+       <div class="cityList">
+         <ul>
+            <li>
+               <button class="xBox">X</button>
+               New York
+            </li>
+          <li>
+               <button class="xBox">X</button>
+               Los Angeles
+            </li>            
+          </ul>             
+       </div>
+      
+      <div class="resetButton">
+         <button type="reset" class="clearList">Clear All</button>
+      </div> 
+   </section> 
+   
+  <footer>
+     <h5>Created by: Debby Beachy 8/11/2014</h5>
+  </footer> 
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+</body>
+</html>

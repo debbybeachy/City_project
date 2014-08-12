@@ -1,0 +1,143 @@
+/*univeral sytles*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block;
+}
+
+ button, input, textarea, select, section, footer{
+   margin:0px;
+}
+
+ul li{
+   list-style: none;
+}
+
+h1, p{
+ font-family:Arial, Helvetica, sans-serif ;
+ color: rgb(217, 211, 179);
+ font-size 1em;
+}
+
+
+html{
+ background:url('../images/Banner.jpg') no-repeat;
+ position: absolute top;
+ 
+}
+
+section{
+   margin: 375px 0px 0px 400px;
+   width: 695px;
+   padding: 5px 0px 10px 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{ 
+   line-height: 2px;
+   margin-left: 105px;
+}
+
+.input{
+   margin-left: 105px;
+}
+
+.type{
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid rgb(217, 211, 179);
+  border-radius: 3px;
+  color: rgb(144, 148, 151);
+}
+
+.button{
+   padding: 6px;
+   margin-left: 7px;
+   border: 1px solid rgb(205, 210, 215);
+   border-radius: 3px;
+   background-color: rgb(127, 211, 179);
+   color:  white;
+}
+
+.button:hover{
+   opacity: 0.8;
+}
+
+.cityList{
+   margin-left: 60px;
+   width: 300px;
+   height: 120px;
+   overflow: auto;
+}
+
+li{
+   padding: 3px;
+   color: rgb(144, 148, 151);
+}
+
+.xBox{
+   border: 1px solid rgb(205, 210, 215);
+   padding: 2px;
+   border-radius: 3px;
+   background-color: rgb(127, 211, 179);
+   color:  white;
+}
+
+.xBox:hover{
+   opacity: 0.8;
+}
+
+.clearList{
+   margin-left: 100px;
+   padding: 6px;
+   border: 1px solid rgb(205, 210, 215);
+   border-radius: 3px;
+   background-color: rgb(127, 211, 179);
+   color:  white;
+}
+
+.clearList:hover{
+   opacity: 0.8;
+}
+
+footer{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(217, 211, 179);
+   height: 30px;
+}
+
+h5{
+   color: rgb(144, 148, 151);
+   float: right;
+   margin: 6px 300px 5px 0px;
+   font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
