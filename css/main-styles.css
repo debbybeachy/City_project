@@ -35,7 +35,7 @@ section{
    margin: 90px auto 0px;
 }
 
-.listWrapper{                           /* I added the .listWrapper div because it was easier to center my elements*/
+.listWrapper{                 /* I added the .listWrapper div because it was easier to center my elements*/
    width: 469px;
    margin: 0px auto 0px;
 }
@@ -64,6 +64,8 @@ span{
   border: 1px solid rgb(217, 211, 179);
   border-radius: 3px;
   color: rgb(144, 148, 151);
+  outline: 0;
+  background-color: white;
 }
 
 .button{
