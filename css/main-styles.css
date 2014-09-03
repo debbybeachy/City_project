@@ -114,6 +114,11 @@ li{
    left:  225px;
 }
 
+.strike{
+   text-decoration: line-through;
+   color: rgb(127, 211, 179);
+}
+
 footer{
    background-color: rgb(217, 211, 179);
    height: 40px;
